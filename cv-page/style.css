@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* place-items: center;
+  margin-right: 200px;
+  margin-left: 200px;
+  position: static;
+  box-sizing: border-box; */
+}
+.sedan {
+  background-color: orange;
+  color: white;
+  border-radius: 12px 0 0 12px;
+}
+.suv {
+  background-color: rgba(7, 103, 103, 0.727);
+  color: white;
+}
+
+.luxury {
+  background-color: rgba(10, 85, 77, 0.985);
+  color: white;
+  border-radius: 0 12px 12px 0;
+}
+.item-container {
+  padding: 50px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  height: 400px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 18px;
+}
+.btn-sedan {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 50px;
+  color: orange;
+}
+
+.btn-suv {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 50px;
+  color: rgba(7, 103, 103, 0.727);
+}
+
+.btn-luxury {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 50px;
+  color: rgba(10, 85, 77, 0.985);
+}
+
+.item-container svg:nth-child(1) {
+  fill: #0015ff;
+  width: 60px;
+  height: 60px;
+}
+.item-container svg:nth-child(2) {
+  fill: #ff0000;
+  width: 60px;
+  height: 60px;
+}
+.fa-car-burst:nth-child(1) {
+  font-size: 60px;
+  color: #ff0000;
+}
+
+.fa-car-burst:nth-child(2) {
+  font-size: 60px;
+  color: #09f450;
+}
